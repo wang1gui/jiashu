@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- 以上3个元标签*必须*位于头部的第一位；任何其他标题内容都必须*在*这些标记之后-->
+<meta name="description" content="Ai 导航 搜索 个人常用网址首页">
+<meta name="author" content="嘉舒电子 小季 王贵 养天和大药房 联诚店">
+<link rel="icon" href="img/logo">
+<title>嘉舒电子--常用网址</title>
+<style>
+.search {
+  position: absolute; /* 绝对定位 */
+  top: 8%; /* 垂直居中 */
+  left: 50%; /* 水平居中 */
+  transform: translate(-50%,-50%); /* 实现页面居中 */
+  width: 45%; /* 设置搜索框宽度 */
+  background-color: #bebfc01f; /* 设置背景颜色 */
+  border: 1px solid #f8cf1a; /* 设置边框 */
+  border-radius: 5px; /* 设置边框圆角 */
+}
+
+.search input[type="text"] {
+  width: 100%; /* 设置输入框宽度 */
+  padding: 10px; /* 设置内边距 */
+  border: none; /* 去除边框 */
+  border-radius: 3px; /* 设置边框圆角 */
+  font-size: 12px; /* 设置字体大小 */
+}
+
+.search button {
+  position: absolute; /* 绝对定位 */
+  right: 0; /* 定位到右侧 */
+  top: 50%; /* 垂直居中 */
+  transform: translateY(-50%); /* 水平居中 */
+  padding: 6px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+</style>
+
+<!-- 启动核心CSS-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- 此模板的自定义样式-->
+<link href="css/custom.css" rel="stylesheet">
+
+<!-- 助手样式-->
+<link href="css/loaders.css" rel="stylesheet">
+<link href="css/swiper.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/nivo-lightbox.css">
+<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+<!-- 字体绝妙风格-->
+<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<div class="loader loader-bg">
+  <div class="loader-inner ball-clip-rotate-pulse">
+    <div></div>
+    <div></div>
+  </div>
+</div>
+
+<!-- 顶部导航-->
+    <nav class="navbar navbar-toggleable-md mb-4 top-bar navbar-static-top sps sps--abv">
+        <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">嘉舒<span>电子</span></a>
+      <div class="collapse navbar-collapse" id="navbarCollapse1">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item"> 
+        <a class="nav-link" href="https://hellowindows.cn/">系统下载</a> 
+        </li>
+        <a class="nav-link" href="hhttps://chatglm.cn/main/alltoolsdetail">智谱清言</a> 
+        </li>
+        <li class="nav-item"> 
+        <a class="nav-link" href="http://www.mobanwang.com/">网页模板王</a> 
+        </li>
+        <li class="nav-item"> 
+        <a class="nav-link" href="https://github.com/getaurora/download">极光VPN下载</a> 
+        </li>
+        <li class="nav-item"> 
+        <a class="nav-link" href="https://github.com/fangzesheng/free-api">API接口大全</a> 
+        </li>
+        </ul>
+      </div>
+     </div>
+    </nav>
+
+    
+<!-- Swiper Silder
+================================================== --> 
+<!-- 滑块主容器-->
+<div class="swiper-container main-slider" id="myCarousel">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide slider-bg-position" style="background:url('img/1.jpg')" data-hash="slide1">
+    </div>
+    <div class="swiper-slide slider-bg-position" style="background:url('img/2.jpg')" data-hash="slide2">
+    </div>
+    <div class="swiper-slide slider-bg-position" style="background:url('img/3.jpg')" data-hash="slide2">
+    </div>
+    <div class="swiper-slide slider-bg-position" style="background:url('img/4.jpg')" data-hash="slide2">
+    </div>
+    <div class="swiper-slide slider-bg-position" style="background:url('img/5.jpg')" data-hash="slide2">
+    </div>
+    <div class="swiper-slide slider-bg-position" style="background:url('img/6.jpg')" data-hash="slide2">
+    </div>
+    <div class="swiper-slide slider-bg-position" style="background:url('img/7.jpg')" data-hash="slide2">
+    </div>
+    <div class="swiper-slide slider-bg-position" style="background:url('img/8.jpg')" data-hash="slide2">
+    </div>
+  </div>
+
+  <!-- 切换按钮-->
+  <div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; z-index: 9999;">
+    <div class="search">
+      <form action = "http://www.baidu.com/baidu" target = "_blank" >
+        <input name = "word" type="text" placeholder="请输入搜索关键字" >
+        <button type = "submit">百度搜索</button>
+      </form>
+      </div>
+  </div>  
+  <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
+  <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
+</div>
+
+<!-- Benefits
+    ================================================== -->
+<section class="service-sec" id="benefits">
+  <div class="container">
+    <div class="row">
+</section>
+
+<footer><h2>作者：小季</h2></footer>
+
+<!-- 引导核心JavaScript --> 
+<!-- 放置在文档末尾，以便更快地加载页面-->
+<script src="js/jquery.min.js" ></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/scrollPosStyler.js"></script> 
+<script src="js/swiper.min.js"></script> <!-- 主图切换 -->
+<script src="js/isotope.min.js"></script> 
+<script src="js/nivo-lightbox.min.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script src="js/core.js"></script> 
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

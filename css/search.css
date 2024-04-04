@@ -1,0 +1,10 @@
+.swiper-container.main-slider {
+	position: relative; /* 使该 div 成为相对定位的容器 */
+  }
+  
+  .search-box {
+	position: absolute; /* 使搜索框成为绝对定位 */
+	top: 50%; /* 垂直居中 */
+	left: 50%; /* 水平居中 */
+	transform: translate(-50%, -50%); /* 进行居中偏移 */
+  }
